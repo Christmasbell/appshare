@@ -1,0 +1,102 @@
+
+html,body {
+	height:100%;
+}
+img {
+	display:block;
+}
+@-webkit-keyframes tipmove {
+	0% {
+		bottom:10px;
+		opacity:0
+	}
+	50% {
+		bottom:15px;
+		opacity:1
+	}
+	100% {
+		bottom:20px;
+		opacity:0
+	}
+}
+.swiper-container {
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+.moreside1{
+	width:100%;
+	height:100%;
+	background:url(../images/bj1.jpg) no-repeat left top;
+	background-size:cover;
+	position: relative;
+}
+.moreside2,.moreside3,.moreside4{
+	width:100%;
+	height:100%;
+	background:url(../images/bj2.jpg) no-repeat left top;
+	background-size:cover;
+}
+.moreside1 #downLoad{
+	width: 3.11rem;
+	height: 3.11rem;
+	position: absolute;
+	top: 1.5rem;
+	right:-0.55rem;
+	z-index:5; 
+	border-radius:20px;
+}
+.phone{
+	width: 5.6rem;
+	height: auto;
+	position: absolute;
+	top:5.5%;
+	left:50%;
+	margin-left: -2.8rem;
+	z-index: 2;
+}
+.info{
+	width: 7rem;
+	height: auto;
+	position: absolute;
+	top:72%;
+	left:50%;
+	margin-left:-3.5rem;
+	z-index: 2;
+}
+.moreside4 .downloadBox{
+	width: 6.4rem;
+	height: 0.7rem;
+	margin:0 auto;
+	background-color:rgba(248, 180, 52, 0.6);
+	position: relative;
+	border-radius: 0.33rem;
+	line-height: 0.7rem;
+	top:91%;
+	z-index: 3;
+}
+.downloadBox .txt{
+	font-size: 0.4rem;
+	padding-left: 0.6rem;
+	color: #fff;
+	top: 0;
+	left:0;
+	position: absolute;
+}
+.downloadBox img{
+	width:3.15rem;
+	height: 1.76rem;
+	top:-0.52rem;
+	right:-0.5rem;
+	position: absolute;
+}
+#array {
+	width: 0.87rem;
+	height:0.72rem;
+	top: 94%;
+	left:50%;
+	margin-left: -0.435rem;
+	position:absolute;
+	z-index:999;
+	-webkit-animation:tipmove 1.5s infinite ease-in-out;
+}
